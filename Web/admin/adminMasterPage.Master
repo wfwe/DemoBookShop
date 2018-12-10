@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMasterPage.master.cs" Inherits="BookShop.Web.admin.adminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>图书管理后台</title>
+
+    <asp:contentplaceholder id="ContentHead" runat="server">
+        </asp:contentplaceholder>
+    <style type="text/css">
+body{ background-image: url(../Images/di-admini2.gif);
+	        background-repeat: no-repeat;
+}
+        #Layer5 {
+	        position:absolute;
+	        left:22px;
+	        top:87px;
+	        width:144px;
+	        height:21px;
+	        z-index:1;
+        }
+        .STYLE1 {
+	        font-family: "宋体";
+	        font-size: 12px;
+	        color: #FFFFFF;
+        }
+        a:link {
+	        color: #000000;
+        }
+        a:visited {
+	        color: #000099;
+        }
+        a:hover {
+	        color: #000000;
+        }
+        a:active {
+	        color: #000000;
+        }
+        #Layer6 {
+	        position:absolute;
+	        left:22px;
+	        top:120px;
+	        width:145px;
+	        height:281px;
+	        z-index:2;
+        }
+        #Layer8 {
+	        position:absolute;
+	        left:228px;
+	        top:91px;
+	        width:520px;
+	        height:16px;
+	        z-index:4;
+        }
+        .STYLE3 {font-family: "宋体"; font-size: 12px; font-weight: bold; }
+        #Layer19 {
+	        position:absolute;
+	        left:7px;
+	        top:9px;
+	        width:156px;
+	        height:59px;
+	        z-index:14;
+        }
+        #Layer20 {
+	        position:absolute;
+	        left:210px;
+	        top:113px;
+	        width:820px;
+	        height:606px;
+	        z-index:15;
+	        text-align:left;
+        }
+
+   </style>
+</head>
+<body>
+<form id="Form1" runat="server">
+    <div id="Layer5">
+      <div align="right" class="STYLE1">管理员，您好！</div>
+    </div>
+    <div id="Layer6" style="font-size:small">
+      <asp:TreeView ID="tvAdmin" runat="server" ImageSet="Arrows">      
+       <DataBindings>
+            <asp:TreeNodeBinding DataMember="siteMapNode" NavigateUrlField="url" TextField="title" />
+           <asp:TreeNodeBinding DataMember="siteRoot" TextField="title" />
+        </DataBindings>      
+          <ParentNodeStyle Font-Bold="False" />
+          <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+          <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px"
+              VerticalPadding="0px" ForeColor="#5555DD" />
+          <Nodes>
+              <asp:TreeNode Text="管理员控件面板" Value="管理员控件面板"></asp:TreeNode>
+          </Nodes>
+          <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px"
+              NodeSpacing="0px" VerticalPadding="0px" />
+        </asp:TreeView>
+        <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click"></asp:LinkButton>
+    </div>
+    <div id="Layer20">
+    <asp:contentplaceholder id="cphAdmin" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    <div id="Layer19"><img src="../Images/touming.gif" width="126" height="61" border="0" usemap="#Map" />
+    <map name="Map" id="Map"><area shape="rect" coords="4,2,113,56" href="首页.html" />
+    </map></div>
+  </form>
+    </body>
+</html>
+
+

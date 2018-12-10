@@ -1,0 +1,71 @@
+D:\bk\bookshop\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\bk\bookshop\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\bk\bookshop\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\bk\bookshop\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\bk\bookshop\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\bk\bookshop\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+C:\10月\BookShop\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+C:\10月\BookShop\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+C:\10月\BookShop\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+C:\10月\BookShop\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\10月\BookShop\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+C:\10月\BookShop\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+C:\LS\BookShop三层建好\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+C:\LS\BookShop三层建好\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+C:\LS\BookShop三层建好\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+C:\LS\BookShop三层建好\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\LS\BookShop三层建好\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+C:\LS\BookShop三层建好\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\三层建好V2\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+C:\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+C:\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+C:\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+C:\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+C:\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第三天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第四天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第五天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第六天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第七天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+D:\传智讲课\0315班\第八天\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+E:\毕业设计\商城项目\代码\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+E:\毕业设计\商城项目\代码\BookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+E:\毕业设计\商城项目\代码\BookShop\DBUtility\bin\Debug\MySql.Data.dll
+E:\毕业设计\商城项目\代码\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+E:\毕业设计\商城项目\代码\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
