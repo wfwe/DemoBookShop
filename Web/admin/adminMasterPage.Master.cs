@@ -42,7 +42,7 @@ namespace BookShop.Web.admin
         {
             this.tvAdmin.Nodes.Clear();
             this.tvAdmin.Font.Name = "黑体";
-            this.tvAdmin.Font.Size = FontUnit.Parse("9");
+            this.tvAdmin.Font.Size = FontUnit.Parse("92");
             for (int i = 0; i < list.Count; i++)
             {
                 if (list[i].ParentNodeId == 0)//表示绑定根菜单.
@@ -103,6 +103,11 @@ namespace BookShop.Web.admin
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void tvAdmin_SelectedNodeChanged(object sender, EventArgs e)
         {
 
         }

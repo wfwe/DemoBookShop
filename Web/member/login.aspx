@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/member/MasterPage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="BookShop.Web.member.login" Title="无标题页" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/member/MasterPage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="BookShop.Web.member.login" Title="购书商城" %>
 <%@ Register src="../Control/UserLogin.ascx" tagname="UserLogin" tagprefix="uc1" %>
 
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/BuyMaster.Master" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="BookShop.Web.cart" Title="无标题页" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/BuyMaster.Master" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="BookShop.Web.cart" Title="购书商城" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <script type="text/javascript">
@@ -53,7 +53,6 @@
            {
                 $control.val(count);
            }
-          
       } 
       
       //向服务端发送请求，更新数据库中的数量.
@@ -170,9 +169,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphContent" runat="server">
-
-<div>
-    <table cellpadding="0" cellspacing="0"  width="98%">
+    <table cellpadding="0" cellspacing="0"  width="98%" align="center">
         <tr>
             <td colspan="2">
                 <img height="27" 
@@ -189,7 +186,7 @@
     <td>图书名称</td>
     <td width='14%'>单价</td>
     <td width='11%'>购买数量</td>
-    <td width='7%'>删除图书</td>
+    <td width='11%'>删除图书</td>
  </tr>
 
               <asp:Repeater ID="RepeaterCart" runat="server">
@@ -234,8 +231,6 @@
             </td>
         </tr>
     </table>
-    </div>
-    
     <div id="dialog-message" title="出错啦!!!">
 	<p>
 		<span id="errorMessage" style="font-size:12px;color:Red"></span>

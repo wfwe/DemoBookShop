@@ -41,7 +41,7 @@ namespace BookShop.Web.Control
                         else
                         {
 
-                            Response.Redirect("/showinfo.aspx?msg=" + Server.UrlEncode("登录成功!") + "&url=/Default.aspx" + "&txt=" + Server.UrlEncode("首页"));
+                            Response.Redirect("/showinfo.aspx?msg=" + Server.UrlEncode("登录成功!") + "&url=/cart.aspx" + "&txt=" + Server.UrlEncode("首页"));
                         }
                     }
                     else//如果是else，说明用户修改了自己的密码
@@ -102,7 +102,7 @@ namespace BookShop.Web.Control
                else
                {
 
-                   Response.Redirect("/showinfo.aspx?msg=" + Server.UrlEncode(msg) + "&url=/Default.aspx" + "&txt=" + Server.UrlEncode("首页"));
+                   Response.Redirect("/showinfo.aspx?msg=" + Server.UrlEncode(msg) + "&url=/cart.aspx" + "&txt=" + Server.UrlEncode("首页"));
                }
            }
            else

@@ -1,11 +1,11 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/admin/adminMasterPage.Master" AutoEventWireup="true" CodeBehind="CheckOrders.aspx.cs" Inherits="BookShop.Web.admin.CheckOrders" Title="无标题页" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="server">
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
-        AutoGenerateColumns="False" BackColor="White" BorderColor="#999999" 
-        BorderStyle="None" BorderWidth="1px" CellPadding="3" 
-        DataSourceID="odsOrderSource" GridLines="Vertical" Width="98%" 
-    onrowdatabound="GridView1_RowDataBound">
-        <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
+        AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" 
+        BorderStyle="Solid" BorderWidth="3px" CellPadding="4" 
+        DataSourceID="odsOrderSource" Width="98%" 
+    onrowdatabound="GridView1_RowDataBound" CellSpacing="2" EnableModelValidation="True" ForeColor="Black">
+        <RowStyle BackColor="White" />
         <Columns>
             <asp:TemplateField HeaderText="定单号" SortExpression="OrderId">
                 <EditItemTemplate>
@@ -32,11 +32,10 @@
                 DataNavigateUrlFormatString="CheckOrders_orderdetails.aspx?id={0}" HeaderText="查看详细" 
                 Text="查看详细" />
         </Columns>
-        <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
-        <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
-        <SelectedRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
-        <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
-        <AlternatingRowStyle BackColor="Gainsboro" />
+        <FooterStyle BackColor="#CCCCCC" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
     </asp:GridView>
     <asp:ObjectDataSource ID="odsOrderSource" runat="server" 
         SelectMethod="GetModelList" TypeName="BookShop.BLL.OrdersManager">

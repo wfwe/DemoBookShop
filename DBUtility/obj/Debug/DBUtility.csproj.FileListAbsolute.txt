@@ -69,3 +69,9 @@ E:\毕业设计\商城项目\代码\BookShop\DBUtility\bin\Debug\BookShop.DBUtil
 E:\毕业设计\商城项目\代码\BookShop\DBUtility\bin\Debug\MySql.Data.dll
 E:\毕业设计\商城项目\代码\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
 E:\毕业设计\商城项目\代码\BookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb
+F:\C#\DemoBookShop\DBUtility\bin\Debug\BookShop.DBUtility.dll
+F:\C#\DemoBookShop\DBUtility\bin\Debug\BookShop.DBUtility.pdb
+F:\C#\DemoBookShop\DBUtility\bin\Debug\MySql.Data.dll
+F:\C#\DemoBookShop\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+F:\C#\DemoBookShop\DBUtility\obj\Debug\BookShop.DBUtility.dll
+F:\C#\DemoBookShop\DBUtility\obj\Debug\BookShop.DBUtility.pdb

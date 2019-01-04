@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/BuyMaster.Master" AutoEventWireup="true" CodeBehind="OrderConfrim.aspx.cs" Inherits="BookShop.Web.OrderConfrim" Title="无标题页" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/BuyMaster.Master" AutoEventWireup="true" CodeBehind="OrderConfrim.aspx.cs" Inherits="BookShop.Web.OrderConfrim" Title="购书商城" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <script type="text/javascript">

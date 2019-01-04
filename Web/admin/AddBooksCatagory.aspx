@@ -1,20 +1,19 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/admin/adminMasterPage.Master" AutoEventWireup="true" CodeBehind="AddBooksCatagory.aspx.cs" Inherits="BookShop.Web.admin.AddBooksCatagory" Title="无标题页" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="server">
     <asp:GridView ID="gvMain" runat="server" AutoGenerateColumns="False" 
-        BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" 
+        BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" 
         CellPadding="4" DataKeyNames="id" DataSourceID="odsCategories" 
-        ForeColor="Black" GridLines="Vertical" Width="777px">
+        ForeColor="Black" Width="777px" CellSpacing="2" EnableModelValidation="True">
         <Columns>
             <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
             <asp:BoundField DataField="Name" HeaderText="分类名称" SortExpression="Name" />
             <asp:CommandField ShowDeleteButton="True" />
         </Columns>
-        <FooterStyle BackColor="#CCCC99" />
-        <RowStyle BackColor="#F7F7DE" />
-        <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-        <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-        <AlternatingRowStyle BackColor="White" />
+        <FooterStyle BackColor="#CCCCCC" />
+        <RowStyle BackColor="White" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
     </asp:GridView>
     新增分类：<asp:TextBox ID="txtCateGory" runat="server"></asp:TextBox>
     &nbsp;

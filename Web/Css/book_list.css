@@ -1,10 +1,10 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 @import url(book_list.css );
 bady{
     
     }
-.anniu{font-size:12px;background:#C0FFC0;border:SeaGreen 1px solid;height:16px;width:57px;color:Black; }
+.anniu{font-size:12px;background:grey;border:SeaGreen 1px solid;height:22px;width:63px;color:Black; }
 dl,dd,dt,ul,li{
     list-style-type:none;
     }

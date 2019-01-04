@@ -155,3 +155,16 @@ E:\毕业设计\商城项目\代码\BookShop\BLL\bin\Debug\BookShop.DAL.pdb
 E:\毕业设计\商城项目\代码\BookShop\BLL\bin\Debug\BookShop.Model.pdb
 E:\毕业设计\商城项目\代码\BookShop\BLL\bin\Debug\BookShop.DBUtility.pdb
 E:\毕业设计\商城项目\代码\BookShop\BLL\obj\Debug\BookShop.BLL.pdb
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.BLL.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.BLL.pdb
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.DAL.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.Model.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\LTP.Common.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.DBUtility.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\MySql.Data.dll
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.DAL.pdb
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.Model.pdb
+F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.DBUtility.pdb
+F:\C#\DemoBookShop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\C#\DemoBookShop\BLL\obj\Debug\BookShop.BLL.dll
+F:\C#\DemoBookShop\BLL\obj\Debug\BookShop.BLL.pdb

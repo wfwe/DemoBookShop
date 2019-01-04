@@ -21,17 +21,22 @@ namespace BookShop.Web.admin
 
         }
 
-        protected void imgb_Sure_Click(object sender, ImageClickEventArgs e)
+        protected void imgb_Cancel_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
         {
             if (!Page.IsValid)
                 return;
             BLL.UserManager userManager = new BookShop.BLL.UserManager();
-           
+
             string loginId = txtLoginId.Text.Trim();
             string pwd = txtLoginPwd.Text.Trim();
             string msg;
             Model.User loginuser;
-            if (userManager.AdminLogin(loginId,pwd,out msg, out loginuser))
+            if (userManager.AdminLogin(loginId, pwd, out msg, out loginuser))
             {
                 //返回true表示登录成功!
                 Session["adminUser"] = loginuser;
@@ -41,15 +46,15 @@ namespace BookShop.Web.admin
             else
             {
                 //登录失败!
-              Msg="用户名密码错误!!";
+                Msg = "用户名密码错误!!";
                 return;
             }
-
         }
 
-        protected void imgb_Cancel_Click(object sender, ImageClickEventArgs e)
+        protected void Button2_Click(object sender, EventArgs e)
         {
-
+            txtLoginId.Text = "";
+            txtLoginPwd.Text = "";
         }
     }
 }

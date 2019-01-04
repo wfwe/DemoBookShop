@@ -86,7 +86,7 @@ namespace BookShop.Web
 
 
             BLL.BookManager bll = new BookShop.BLL.BookManager();
-            pageCount=bll.GetPageCount(10, categoryId);//获取总页数
+            pageCount=bll.GetPageCount(5, categoryId);//获取总页数
 
             if (page <= 1)
             {
@@ -127,7 +127,7 @@ namespace BookShop.Web
                 order = ViewState["orderby"].ToString();
             }
           //  this.RepeaterList.DataSource = bll.GetPageList(page, 10, categoryId);//获取到了分页的数据
-            this.RepeaterList.DataSource = bll.GetPageList(page, 10, categoryId, order);
+            this.RepeaterList.DataSource = bll.GetPageList(page, 5, categoryId, order);
             this.RepeaterList.DataBind();
          
 

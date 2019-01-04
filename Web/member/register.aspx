@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/member/MasterPage.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="BookShop.Web.member.register" Title="无标题页" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/member/MasterPage.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="BookShop.Web.member.register" Title="购书商城" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Header" runat="server">
 
   <script type="text/javascript">
@@ -13,18 +13,13 @@
        $.post("/ashx/CheckName.ashx",{"LoginId":loginId},function(data){
          if(data=="no"){//表示用户名不存在
          
-           $("#imgCheck").attr("src","/Images/dui.ico").show();//显示图片
-           $("#<%=btnImage.ClientID%>").attr("disabled","");//用户不存在提交按钮启用
          }else if(data=="yes"){
-         
-          $("#imgCheck").attr("src","/Images/cha.ico").show();//显示图片
-           $("#<%=btnImage.ClientID%>").attr("disabled","disabled");
+       
          }
        
        },"text");
      }else{
-       $("#imgCheck").hidden();
-        $("#<%=btnImage.ClientID%>").attr("disabled","disabled");
+      
      }
    }
   
@@ -53,8 +48,7 @@
                         <table cellpadding="0" cellspacing="0" height="61" style="height: 332px">
                             <tr>
                                 <td colspan="6" height="33">
-                                    <p class="STYLE2" style="text-align: center">
-                                        注册新帐户方便又容易</p>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -63,7 +57,7 @@
                                             <td align="left" style="height: 26px" valign="top" width="37%">
                                                 <asp:TextBox ID="txtName" runat="server" Width="178px"></asp:TextBox>
                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
-                                                    ControlToValidate="txtName" ErrorMessage="用户名不能为空！" Display="Dynamic"></asp:RequiredFieldValidator>
+                                                    ControlToValidate="txtName" ErrorMessage="用户名不能为空！" Display="Dynamic">*</asp:RequiredFieldValidator>
                                             <img src="" id="imgCheck" style="display:none" />
                                             
                                             </td>
@@ -79,14 +73,17 @@
                                             <td align="center" height="26" valign="top" width="24%">
                                                 密码：</td>
                                             <td align="left" valign="top" width="37%">
-                                                <asp:TextBox ID="txtPass" runat="server" Width="178px"></asp:TextBox>
+                                                <asp:TextBox ID="txtPass" runat="server" Width="178px" TextMode="Password"></asp:TextBox>
+                                                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtPass" ErrorMessage="密码不能为空！">*</asp:RequiredFieldValidator>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" height="26" valign="top" width="24%">
                                                 确认密码：</td>
                                             <td align="left" valign="top" width="37%">
-                                                <asp:TextBox ID="txtTwoPass" runat="server" Width="178px"></asp:TextBox>
+                                                <asp:TextBox ID="txtTwoPass" runat="server" Width="178px" TextMode="Password"></asp:TextBox>
+                                                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtTwoPass" ErrorMessage="确认密码不能为空！"></asp:RequiredFieldValidator>
+                                                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="txtPass" ControlToValidate="txtTwoPass" ErrorMessage="两次密码输入不一致"></asp:CompareValidator>
                                             </td>
                                         </tr>
                                         <tr>
@@ -123,8 +120,8 @@
                                         </tr>
                                         <tr>
                                             <td align="center" colspan="2">
-                                                <asp:ImageButton ID="btnImage" runat="server" Height="26px" Width="68px" 
-                                                    ImageUrl="~/Images/az-finish.gif" onclick="btnImage_Click" /> </td>
+                                                <asp:Button ID="btnRegister" runat="server" Text="注册" CssClass="btn btn-success" OnClick="btnRegister_Click" />
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td align="center" colspan="2">

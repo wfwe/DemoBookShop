@@ -49,7 +49,7 @@ namespace BookShop.DAL
 			strSql.Append("insert into Users(");
 			strSql.Append("LoginId,LoginPwd,Name,Address,Phone,Mail,UserStateId)");
 			strSql.Append(" values (");
-			strSql.Append("@LoginId,@LoginPwd,@Name,@Address,@Phone,@Mail,@UserRoleId,@UserStateId)");
+			strSql.Append("@LoginId,@LoginPwd,@Name,@Address,@Phone,@Mail,@UserStateId)");
 			strSql.Append(";select @@IDENTITY");
 			SqlParameter[] parameters = {
 					new SqlParameter("@LoginId", SqlDbType.NVarChar,50),

@@ -1,4 +1,4 @@
-ï»¿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMasterPage.master.cs" Inherits="BookShop.Web.admin.adminMasterPage" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMasterPage.master.cs" Inherits="BookShop.Web.admin.adminMasterPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -6,12 +6,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>å›¾ä¹¦ç®¡ç†åå°</title>
+<title>Í¼Êé¹ÜÀíºóÌ¨</title>
 
     <asp:contentplaceholder id="ContentHead" runat="server">
         </asp:contentplaceholder>
     <style type="text/css">
-body{ background-image: url(../Images/di-admini2.gif);
+body{ background-image: url(../Images/back.jpg);
 	        background-repeat: no-repeat;
 }
         #Layer5 {
@@ -23,7 +23,7 @@ body{ background-image: url(../Images/di-admini2.gif);
 	        z-index:1;
         }
         .STYLE1 {
-	        font-family: "å®‹ä½“";
+	        font-family: "ËÎÌå";
 	        font-size: 12px;
 	        color: #FFFFFF;
         }
@@ -40,12 +40,12 @@ body{ background-image: url(../Images/di-admini2.gif);
 	        color: #000000;
         }
         #Layer6 {
-	        position:absolute;
-	        left:22px;
-	        top:120px;
-	        width:145px;
-	        height:281px;
-	        z-index:2;
+	        position: absolute;
+            left: 22px;
+            top: 112px;
+            width: 175px;
+            height: 600px;
+            z-index: 2;
         }
         #Layer8 {
 	        position:absolute;
@@ -55,7 +55,7 @@ body{ background-image: url(../Images/di-admini2.gif);
 	        height:16px;
 	        z-index:4;
         }
-        .STYLE3 {font-family: "å®‹ä½“"; font-size: 12px; font-weight: bold; }
+        .STYLE3 {font-family: "ËÎÌå"; font-size: 12px; font-weight: bold; }
         #Layer19 {
 	        position:absolute;
 	        left:7px;
@@ -73,16 +73,20 @@ body{ background-image: url(../Images/di-admini2.gif);
 	        z-index:15;
 	        text-align:left;
         }
+        #ctl00_tvAdmin
+        {
+            line-height: 0.3em;
+        }
 
    </style>
 </head>
 <body>
 <form id="Form1" runat="server">
     <div id="Layer5">
-      <div align="right" class="STYLE1">ç®¡ç†å‘˜ï¼Œæ‚¨å¥½ï¼</div>
+      <div align="right" class="STYLE1">¹ÜÀíÔ±£¬ÄúºÃ£¡</div>
     </div>
-    <div id="Layer6" style="font-size:small">
-      <asp:TreeView ID="tvAdmin" runat="server" ImageSet="Arrows">      
+    <div id="Layer6" style="font-size:50px;background-color: white;line-height: 0.3em;">
+      <asp:TreeView ID="tvAdmin" runat="server" ImageSet="Arrows" OnSelectedNodeChanged="tvAdmin_SelectedNodeChanged">      
        <DataBindings>
             <asp:TreeNodeBinding DataMember="siteMapNode" NavigateUrlField="url" TextField="title" />
            <asp:TreeNodeBinding DataMember="siteRoot" TextField="title" />
@@ -92,7 +96,7 @@ body{ background-image: url(../Images/di-admini2.gif);
           <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px"
               VerticalPadding="0px" ForeColor="#5555DD" />
           <Nodes>
-              <asp:TreeNode Text="ç®¡ç†å‘˜æ§ä»¶é¢æ¿" Value="ç®¡ç†å‘˜æ§ä»¶é¢æ¿"></asp:TreeNode>
+              <asp:TreeNode Text="¹ÜÀíÔ±¿Ø¼şÃæ°å" Value="¹ÜÀíÔ±¿Ø¼şÃæ°å"></asp:TreeNode>
           </Nodes>
           <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px"
               NodeSpacing="0px" VerticalPadding="0px" />
@@ -104,7 +108,7 @@ body{ background-image: url(../Images/di-admini2.gif);
         </asp:contentplaceholder>
     </div>
     <div id="Layer19"><img src="../Images/touming.gif" width="126" height="61" border="0" usemap="#Map" />
-    <map name="Map" id="Map"><area shape="rect" coords="4,2,113,56" href="é¦–é¡µ.html" />
+    <map name="Map" id="Map"><area shape="rect" coords="4,2,113,56" href="Ê×Ò³.html" />
     </map></div>
   </form>
     </body>

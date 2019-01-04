@@ -2,13 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphAdmin" runat="server">
-<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
-        DataSourceID="ObjectDataSource1" CellPadding="4" ForeColor="#333333" 
-        GridLines="None" Height="144px" onrowdatabound="GridView1_RowDataBound" DataKeyNames="Id" 
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+        DataSourceID="ObjectDataSource1" CellPadding="3" ForeColor="Black" 
+        GridLines="Vertical" Height="500px" onrowdatabound="GridView1_RowDataBound" DataKeyNames="Id" 
         onrowdeleting="GridView1_RowDeleting" 
     onrowupdating="GridView1_RowUpdating" onrowcommand="GridView1_RowCommand" 
-    Width="98%" AllowPaging="True">
-        <RowStyle BackColor="#EFF3FB" />
+    Width="98%" AllowPaging="True" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" EnableModelValidation="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         <Columns>
             <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" 
                 ReadOnly="True" />
@@ -36,12 +35,11 @@
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>
-        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-        <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-        <EditRowStyle BackColor="#2461BF" />
-        <AlternatingRowStyle BackColor="White" />
+        <FooterStyle BackColor="#CCCCCC" />
+        <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+        <AlternatingRowStyle BackColor="#CCCCCC" />
     </asp:GridView>
     
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" 

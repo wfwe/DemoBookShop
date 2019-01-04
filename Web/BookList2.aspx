@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MainPage.Master" AutoEventWireup="true" CodeBehind="BookList2.aspx.cs"   Inherits="BookShop.Web.BookList2" Title="图书列表" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MainPage.Master" AutoEventWireup="true" CodeBehind="BookList2.aspx.cs"   Inherits="BookShop.Web.BookList2" Title="购书商城" %>
 <%@ Register src="Control/PageData.ascx" tagname="PageData" tagprefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -7,11 +7,11 @@
             <div id="divOrder">
             <div style="MARGIN: 20px 0px; TEXT-ALIGN: left">排序方式： 
                 <asp:Button class="anniu" 
-                    style="BORDER-RIGHT: seagreen 1px solid; BORDER-TOP: seagreen 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: seagreen 1px solid;  COLOR: black; BORDER-BOTTOM: seagreen 1px solid; HEIGHT: 16px; BACKGROUND-COLOR: #c0ffc0" 
+                    style="BORDER-RIGHT: seagreen 1px solid; BORDER-TOP: seagreen 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: seagreen 1px solid;  COLOR: black; BORDER-BOTTOM: seagreen 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #b1f7d0" 
                     Text="出版日期↑" runat="server" ID="PublishData" onclick="PublishData_Click" 
-                    Height="39px" 
+                    Height="43px" 
                     ></asp:Button> 
-                | <input class="anniu"  style="BORDER-RIGHT: seagreen 1px solid; BORDER-TOP: seagreen 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: seagreen 1px solid; WIDTH: 57px; COLOR: black; BORDER-BOTTOM: seagreen 1px solid; HEIGHT: 16px; BACKGROUND-COLOR: #c0ffc0" type="submit" value="<%=orderPrice %>"  name="UntpriceDesc" /></div></div></div>
+                | <input class="anniu"  style="BORDER-RIGHT: seagreen 1px solid; BORDER-TOP: seagreen 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: seagreen 1px solid; WIDTH: 62px; COLOR: black; BORDER-BOTTOM: seagreen 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #b1f7d0" type="submit" value="<%=orderPrice %>"  name="UntpriceDesc" /></div></div></div>
     <asp:Repeater ID="RepeaterList" runat="server" EnableViewState="false" >
     <ItemTemplate>
     <table>

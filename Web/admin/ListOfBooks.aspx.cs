@@ -38,5 +38,10 @@ namespace BookShop.Web.admin
                 lb.Attributes.Add("onclick", "return confirm('确认删除吗？')");
             }
         }
+
+        protected void ObjectDataSource1_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
 }

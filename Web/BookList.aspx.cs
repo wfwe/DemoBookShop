@@ -108,7 +108,7 @@ namespace BookShop.Web
                 order = ViewState["orderby"].ToString();
             }
           //  this.RepeaterList.DataSource = bll.GetPageList(page, 10, categoryId);//获取到了分页的数据
-            this.RepeaterList.DataSource = bll.GetPageList(page, 10, categoryId, order);//根据传递过来的页码值,获取当前页码对应的数据。
+            this.RepeaterList.DataSource = bll.GetPageList(page, 5, categoryId, order);//根据传递过来的页码值,获取当前页码对应的数据。
             this.lblPageCount.Text = pageCount.ToString();
             this.RepeaterList.DataBind();
             this.lblCurrentPage.Text = page.ToString();

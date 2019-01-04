@@ -74,5 +74,10 @@ namespace BookShop.Web.admin
         {
            
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
