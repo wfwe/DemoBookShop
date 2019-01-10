@@ -12,7 +12,7 @@
         BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px"
         CellPadding="4"
         OnItemInserting="dvAddBook_ItemInserting"
-        OnItemUpdating="dvAddBook_ItemUpdating" CellSpacing="2" EnableModelValidation="True" ForeColor="Black">
+        OnItemUpdating="dvAddBook_ItemUpdating" CellSpacing="2" EnableModelValidation="True" ForeColor="Black" OnPageIndexChanging="dvAddBook_PageIndexChanging">
         <FooterStyle BackColor="#CCCCCC" />
         <RowStyle BackColor="White" />
         <FieldHeaderStyle Width="20%" />
@@ -67,7 +67,7 @@
             <asp:TemplateField HeaderText="出版社">
                 <InsertItemTemplate>
                     <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="odsPublish"
-                        DataTextField="Name" DataValueField="Id">
+                        DataTextField="Name" DataValueField="Id" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" >
                     </asp:DropDownList>
                 </InsertItemTemplate>
             </asp:TemplateField>
@@ -141,7 +141,7 @@
             <asp:TemplateField ShowHeader="False">
                 <InsertItemTemplate>
                     <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True"
-                        CommandName="Insert" Text="插入"></asp:LinkButton>
+                        CommandName="Insert" Text="插入" OnClick="LinkButton1_Click"></asp:LinkButton>
                 </InsertItemTemplate>
 
             </asp:TemplateField>

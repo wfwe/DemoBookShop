@@ -168,3 +168,16 @@ F:\C#\DemoBookShop\BLL\bin\Debug\BookShop.DBUtility.pdb
 F:\C#\DemoBookShop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 F:\C#\DemoBookShop\BLL\obj\Debug\BookShop.BLL.dll
 F:\C#\DemoBookShop\BLL\obj\Debug\BookShop.BLL.pdb
+E:\大三学习资料\DemoBookShop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\大三学习资料\DemoBookShop\BLL\obj\Debug\BookShop.BLL.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.BLL.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.BLL.pdb
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.DAL.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.Model.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\LTP.Common.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.DBUtility.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\MySql.Data.dll
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.DAL.pdb
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.Model.pdb
+E:\大三学习资料\DemoBookShop\BLL\bin\Debug\BookShop.DBUtility.pdb
+E:\大三学习资料\DemoBookShop\BLL\obj\Debug\BookShop.BLL.pdb

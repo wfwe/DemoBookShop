@@ -67,8 +67,7 @@ namespace BookShop.DAL
 					new SqlParameter("@Clicks", SqlDbType.Int,4)};
 			parameters[0].Value = model.Title;
 			parameters[1].Value = model.Author;
-            parameters[2].Value = model.Publisher.Id;
-			parameters[2].Value = model.Publisher.Id;
+            parameters[2].Value = 35;
 			parameters[3].Value = model.PublishDate;
 			parameters[4].Value = model.ISBN;
 			parameters[5].Value = model.WordsCount;
@@ -77,10 +76,12 @@ namespace BookShop.DAL
 			parameters[8].Value = model.AurhorDescription;
 			parameters[9].Value = model.EditorComment;
 			parameters[10].Value = model.TOC;
-			parameters[11].Value = model.Category.Id;
+			parameters[11].Value = 1;
 			parameters[12].Value = model.Clicks;
 
 			object obj = DbHelperSQL.GetSingle(strSql.ToString(),parameters);
+
+
 			if (obj == null)
 			{
 				return 1;

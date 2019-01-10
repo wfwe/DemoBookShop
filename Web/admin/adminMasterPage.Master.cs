@@ -15,12 +15,7 @@ namespace BookShop.Web.admin
     public partial class adminMasterPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            //if (!BookShop.Web.Common.WebComm.CheckUser())
-            //{
-            //    BookShop.Web.Common.WebComm.GoToPage();
-            //    return;
-            //}
+        { 
             if (!Page.IsPostBack)
             {
                 BLL.SysFunManager sysfunManager = new BookShop.BLL.SysFunManager();

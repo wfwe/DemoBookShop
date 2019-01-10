@@ -86,35 +86,48 @@ namespace BookShop.DAL
 			StringBuilder strSql=new StringBuilder();
 			strSql.Append("update Users set ");
 			strSql.Append("LoginId=@LoginId,");
-			strSql.Append("LoginPwd=@LoginPwd,");
 			strSql.Append("Name=@Name,");
 			strSql.Append("Address=@Address,");
 			strSql.Append("Phone=@Phone,");
-			strSql.Append("Mail=@Mail,");
-			strSql.Append("UserStateId=@UserStateId");
-			strSql.Append(" where Id=@Id ");
-			SqlParameter[] parameters = {
-					new SqlParameter("@Id", SqlDbType.Int,4),
+			strSql.Append("Mail=@Mail");
+            strSql.Append(" where Id=@Id ");
+			SqlParameter[] parameters = {			
 					new SqlParameter("@LoginId", SqlDbType.NVarChar,50),
-					new SqlParameter("@LoginPwd", SqlDbType.NVarChar,50),
 					new SqlParameter("@Name", SqlDbType.NVarChar,50),
 					new SqlParameter("@Address", SqlDbType.NVarChar,200),
 					new SqlParameter("@Phone", SqlDbType.NVarChar,100),
 					new SqlParameter("@Mail", SqlDbType.NVarChar,100),
-					new SqlParameter("@UserStateId", SqlDbType.Int,4)};
-			parameters[0].Value = model.Id;
-			parameters[1].Value = model.LoginId;
-			parameters[2].Value = model.LoginPwd;
-			parameters[3].Value = model.Name;
-			parameters[4].Value = model.Address;
-			parameters[5].Value = model.Phone;
-			parameters[6].Value = model.Mail;
-			parameters[7].Value = model.UserState.Id;
-
+                    new SqlParameter("@Id", SqlDbType.NVarChar,100)};
+			parameters[0].Value = model.LoginId;
+			parameters[1].Value = model.Name;
+			parameters[2].Value = model.Address;
+			parameters[3].Value = model.Phone;
+			parameters[4].Value = model.Mail;
+            parameters[5].Value = model.Id;
 			DbHelperSQL.ExecuteSql(strSql.ToString(),parameters);
 		}
 
-		/// <summary>
+
+        /// <summary>
+        /// 删除一条数据
+        /// </summary>
+        public void DeleteModel(BookShop.Model.User model)
+        {
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("delete from Users ");
+            strSql.Append(" where Id=@Id ");
+            SqlParameter[] parameters = {
+					new SqlParameter("@Id", SqlDbType.Int,4)};
+            parameters[0].Value = model.Id;
+
+            DbHelperSQL.ExecuteSql(strSql.ToString(), parameters);
+        }
+
+
+
+
+        /// <summary>
 		/// 删除一条数据
 		/// </summary>
 		public void Delete(int Id)

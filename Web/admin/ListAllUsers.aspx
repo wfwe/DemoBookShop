@@ -28,7 +28,7 @@
                 <EditItemTemplate></EditItemTemplate>
             </asp:TemplateField>
             <asp:CommandField ShowEditButton="True" />
-            <asp:TemplateField ShowHeader="False" HeaderText="删">
+            <asp:TemplateField ShowHeader="False" HeaderText="删除">
                 <ItemTemplate>
                     <asp:LinkButton ID="lnkbtnDelete" runat="server" CausesValidation="False" 
                         CommandName="Delete" Text="删除" ></asp:LinkButton>
@@ -44,7 +44,7 @@
     
     <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" 
         DataObjectTypeName="BookShop.Model.User"
-        SelectMethod="GetModelList" TypeName="BookShop.BLL.UserManager" 
+        SelectMethod="GetModelList" TypeName="BookShop.BLL.UserManager" DeleteMethod="DeleteModel" UpdateMethod="Update" 
       >
     
          <SelectParameters>

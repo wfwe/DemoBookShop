@@ -39,6 +39,7 @@ namespace BookShop.BLL
 		/// </summary>
 		public int  Add(BookShop.Model.Book model)
 		{
+            
 			return dal.Add(model);
 		}
 

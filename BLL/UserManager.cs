@@ -66,6 +66,12 @@ namespace BookShop.BLL
 			dal.Delete(Id);
 		}
 
+        public void DeleteModel(BookShop.Model.User model)
+        {
+
+            dal.Delete(model.Id);
+        }
+
 		/// <summary>
 		/// 得到一个对象实体
 		/// </summary>

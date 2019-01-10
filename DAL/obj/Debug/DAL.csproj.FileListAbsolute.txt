@@ -141,3 +141,14 @@ F:\C#\DemoBookShop\DAL\bin\Debug\BookShop.Model.pdb
 F:\C#\DemoBookShop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 F:\C#\DemoBookShop\DAL\obj\Debug\BookShop.DAL.dll
 F:\C#\DemoBookShop\DAL\obj\Debug\BookShop.DAL.pdb
+E:\大三学习资料\DemoBookShop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\大三学习资料\DemoBookShop\DAL\obj\Debug\BookShop.DAL.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.DAL.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.DAL.pdb
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.DBUtility.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.Model.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\LTP.Common.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\MySql.Data.dll
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.DBUtility.pdb
+E:\大三学习资料\DemoBookShop\DAL\bin\Debug\BookShop.Model.pdb
+E:\大三学习资料\DemoBookShop\DAL\obj\Debug\BookShop.DAL.pdb

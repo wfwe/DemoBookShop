@@ -46,13 +46,19 @@ namespace BookShop.Web.admin
             }
         }
 
+        protected void hh() {
+               
+             
+        }
+
+
         protected void dvAddBook_ItemInserting(object sender, DetailsViewInsertEventArgs e)
         {
             if (!IsValid)
                 e.Cancel = true;//通过验证
             string Title = e.Values["Title"].ToString();
             Response.Write(Title);
-           
+
             
 
         }
@@ -60,6 +66,27 @@ namespace BookShop.Web.admin
         protected void dvAddBook_ItemUpdating(object sender, DetailsViewUpdateEventArgs e)
         {
            Response.Write(e.NewValues["Title"]);
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            FileUpload fupload = ((FileUpload)dvAddBook.FindControl("FileUpload1"));
+            string isbn = ((TextBox)dvAddBook.FindControl("TextBox4")).Text.Trim();
+            if (fupload.PostedFile.ContentLength > 10)
+            {
+                fupload.PostedFile.SaveAs(Server.MapPath("~/images/BookCovers/") + isbn + ".jpg");
+            }
+            Response.Write("图书添加成功！"); 
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void dvAddBook_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
+        {
+
         }
     }
 }

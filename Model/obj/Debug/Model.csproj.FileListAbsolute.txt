@@ -58,3 +58,8 @@ E:\毕业设计\商城项目\代码\BookShop\Model\bin\Debug\BookShop.Model.pdb
 E:\毕业设计\商城项目\代码\BookShop\Model\obj\Debug\BookShop.Model.dll
 E:\毕业设计\商城项目\代码\BookShop\Model\obj\Debug\BookShop.Model.pdb
 E:\毕业设计\商城项目\代码\BookShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\大三学习资料\DemoBookShop\Model\bin\Debug\BookShop.Model.dll
+E:\大三学习资料\DemoBookShop\Model\bin\Debug\BookShop.Model.pdb
+E:\大三学习资料\DemoBookShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\大三学习资料\DemoBookShop\Model\obj\Debug\BookShop.Model.dll
+E:\大三学习资料\DemoBookShop\Model\obj\Debug\BookShop.Model.pdb
